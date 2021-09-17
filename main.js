@@ -18,10 +18,14 @@ function sorting(){
 }
 
 function searching(){
+    var counter = 0;
     var y= document.getElementById("searching").value;
     for(var i=0; i<list_of_guests.length; i++){
         if (y=list_of_guests[i]){
-            document.getElementById("seearch").innerHTML= "name found at position"+ i+1;
+            counter = i+1;
+            console.log(i);
+            console.log(counter);
+            document.getElementById("seearch").innerHTML= "name found at position"+ counter;
         };
     }
 }
