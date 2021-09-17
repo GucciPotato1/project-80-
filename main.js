@@ -14,12 +14,14 @@ function show(){
 function sorting(){
     list_of_guests.sort();
     var x=list_of_guests.join('<br>');
-    document.getElementById
+    document.getElementById("listnumber3").innerHTML=x;
 }
 
 function searching(){
-    var y= document.getElementById("").value;
+    var y= document.getElementById("searching").value;
     for(var i=0; i<list_of_guests.length; i++){
-        document.getElementById("").innerHTML=list_of_guests[i];
+        if (y=list_of_guests[i]){
+            document.getElementById("seearch").innerHTML= "name found at position"+ i+1;
+        };
     }
 }
