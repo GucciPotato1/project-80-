@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+}
+
+.names{
+    text-align: center;
+}
+
+.input{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(109, 167, 255);
+  }  
+
+.names{
+    font-family:'Lucida Sans';
+    border-color: rgb(0, 0, 0);
+}
+
+.submit_button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.show_button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.search_button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.search_div{
+text-align: center;
+margin: auto;
+width: 50%;
+padding: 10px;
+}
+
+.show{
+text-align: center;
+margin: auto;
+width: 50%;
+padding: 10px;
+background-color: rgb(205, 253, 255);
+}
+
+.search{
+    font-family:'Lucida Sans';
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1{
+    font-family: fantasy;
+}
+
+.list{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(205, 253, 255);
+    font-family: cursive;
+}
+
+.sort_button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.list2 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(205, 253, 255);
+    font-family: cursive;
+}
+
+.sort{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(205, 253, 255);
+    margin-top: 5px;
+}
