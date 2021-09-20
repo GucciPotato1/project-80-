@@ -83,8 +83,24 @@ h1{
     background-color: rgb(205, 253, 255);
     font-family: cursive;
 }
-
+.list3{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(205, 253, 255);
+    font-family: cursive; 
+}
 .sort{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(205, 253, 255);
+    margin-top: 5px;
+}
+
+.searchh{
     text-align: center;
     margin: auto;
     width: 50%;
